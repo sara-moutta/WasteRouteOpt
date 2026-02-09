@@ -28,3 +28,88 @@ Large urban service regions are decomposed into operational sectors, and a guide
 ```bash
 git clone https://github.com/smmoutta-uesc/WasteRouteOpt.git
 cd WasteRouteOpt
+```
+
+2. **Insttall dependences**
+```
+pip install -r requirements.txt
+```
+
+### Running the simulation
+
+The simulation is implemented as command line interface.
+```bash
+python run.py
+```
+## 📊 Features
+
+- ```bash
+python -m src.main
+```
+## 📊 Features
+
+- Sector-based VRP optimization
+- Capacity-constrained routing
+- Guided Local Search metaheuristic
+- Automatic multi-region execution
+- Route visualization (PNG)
+- Formatted route logs (TXT)
+- Total distance performance metrics
+
+Results are generated locally and stored in:
+```
+results/
+ └── execution_date/
+     ├── *_rotas.txt
+     ├── *_grafico.png
+     └── distancia_total_geral.txt
+```
+
+## 📁 Repository Structure
+```
+WasteRouteOpt/
+├── README.md
+├── LICENSE
+├── run.py
+├── src/
+│   └── routing_optimizer.py
+├── data/
+│   ├── 275_points/
+│   └── 2093_points/
+└── results/   #generated locally and ignored by GitHub
+
+```
+
+## 📄 Citation
+
+If you use this code in your research, please cite:
+```bibtex
+@article{silva2025creative,
+  title = {Sector-based vehicle routing optimization for scalable municipal solid waste collection},
+  author = {Sara Meira Moutta},
+  journal = {name journal},
+  year = {2026},
+  note = {Under Review}
+}
+```
+
+## 📜 License
+
+APACHE License - see LICENSE file for details.
+
+
+## 👥 Authors & Contact
+
+- **Sara Meira Moutta** (Corresponding Author)
+Universidade Estadual de Santa Cruz (UESC)
+Programa de Pós-graduação em Modelagem Compuacional UERJ-IPRJ
+📧 smoutta@uesc.br
+
+## 🙏 Acknowledgments
+
+This research was supported by:
+- Universidade Estadual de Santa Cruz (UESC)
+---
+
+**Last Updated**: November 2025  
+**Repository Status**: Under active development for publication 
