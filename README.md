@@ -7,8 +7,8 @@
 This repository contains the complete implementation of the routing optimization framework proposed in our study:
 
 > **Moutta, Sara Meira, et al. (2026).**  
-> *"Sector-based vehicle routing optimization for scalable municipal solid waste collection."*  
-> IEEE Access [Under Review]
+> *"Global and Sector-Based Routing in Waste Collection: Impacts on Google Maps Request Costs."*  
+> [In Preparation]
 
 ---
 
