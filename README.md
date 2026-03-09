@@ -84,12 +84,12 @@ WasteRouteOpt/
 
 If you use this code in your research, please cite:
 ```bibtex
-@article{silva2025creative,
-  title = {Sector-based vehicle routing optimization for scalable municipal solid waste collection},
-  author = {Sara Meira Moutta},
-  journal = {name journal},
+@article{moutta2026routing,
+  title = {Global and Sector-Based Routing in Waste Collection: Impacts on Google Maps Request Costs},
+  author =  {Moutta, Sara Meira},
+  journal = {Journal Name},
   year = {2026},
-  note = {Under Review}
+  note = {In Preparation}
 }
 ```
 
@@ -102,14 +102,16 @@ APACHE License - see LICENSE file for details.
 
 - **Sara Meira Moutta** (Corresponding Author)
 Universidade Estadual de Santa Cruz (UESC)
-Programa de Pós-graduação em Modelagem Compuacional UERJ-IPRJ
+Graduate Program in Computational Modeling  
+State University of Rio de Janeiro (UERJ) – Instituto Politécnico (IPRJ)
 📧 smoutta@uesc.br
 
 ## 🙏 Acknowledgments
 
 This research was supported by:
-- Universidade Estadual de Santa Cruz (UESC)
+- Universidade Estadual de Santa Cruz (UESC), Brazil
+- CAPES – Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Brazil)
 ---
 
-**Last Updated**: November 2025  
+**Last Updated**: March 2026  
 **Repository Status**: Under active development for publication 
