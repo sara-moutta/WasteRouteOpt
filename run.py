@@ -11,7 +11,7 @@ from datetime import datetime
 
 
 # =========================
-# ESCOLHA DO CENÁRIO
+# Scenario Selection
 # =========================
 
 print("Escolha o cenário:")
@@ -39,7 +39,7 @@ os.makedirs(out_base, exist_ok=True)
 
 
 # =========================
-# PARÂMETROS ORIGINAIS
+# Original Parameters
 # =========================
 
 step_time_sec = 300
@@ -50,7 +50,7 @@ feet_to_km = 0.0003048
 
 
 # =========================
-# LOOP DOS CSVs
+# CSV Loop
 # =========================
 
 for fileNameInn in csv_files:
@@ -167,7 +167,7 @@ for fileNameInn in csv_files:
 
 
     # =========================
-    # SALVAR TXT
+    # Save TXT File
     # =========================
 
 txt_path = os.path.join(out_folder, "rotas_formatadas_km.txt")
@@ -191,7 +191,7 @@ with open(txt_path, "w", encoding="utf-8") as f:
 
 
     # =========================
-    # SALVAR GRÁFICO
+    # Save Plot
     # =========================
 
     plt.figure(figsize=(10, 8))
@@ -214,3 +214,4 @@ with open(txt_path, "w", encoding="utf-8") as f:
 
 
 print("\nProcesso finalizado. Resultados em:", out_base)
+
